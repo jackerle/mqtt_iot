@@ -34,6 +34,12 @@ app.get('/red',(req,res)=>{
 	res.redirect('back')
 })
 
+app.get('/blue',(req,res)=>{
+	console.log(req.method)
+	mqtt_handle.mqtt_blue()
+	res.redirect('back')
+})
 
 
+console.log('server opended')
 app.listen(8080)
