@@ -6,15 +6,18 @@
 	<!----<form action="/green" method="POST">
 		<input type="submit" value="Submit">
 	</form>-->
-	<button onclick="green()" >green</button>
+	<button id="green_but" onclick="green()" >green</button>
 	<br/>
-	<button onclick="red()">red</button>
+	<button id="red_but" onclick="red()">red</button>
 	<br/>
-	<button onclick="blue()">blue</button>
+	<button id="blue_but" onclick="blue()">blue</button>
 	<br/>
-	<button onclick="off()">off</button>
+	<button id="off_but" onclick="off()">off</button>
 
-
+	<audio id="green_audio" src="http://127.0.0.1:8080/green_sound" ></audio>
+	<audio id="red_audio" src="http://127.0.0.1:8080/red_sound" ></audio>
+	<audio id="blue_audio" src="http://127.0.0.1:8080/blue_sound" ></audio>
+	<audio id="off_audio" src="http://127.0.0.1:8080/off_sound" ></audio>
 </body>
 <script src="/view/index.js"></script>
 

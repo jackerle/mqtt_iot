@@ -12,6 +12,7 @@
     "express": "^4.16.4",
     "mqtt": "^2.18.8",
     "path": "^0.12.7",
-    "readline-sync": "^1.4.9"
+    "readline-sync": "^1.4.9",
+    "request": "^2.88.0"
   }
 }
