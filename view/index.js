@@ -1,5 +1,4 @@
 green = async function(){
-	
 	await fetch("http://127.0.0.1:8080/green")
 		.then(result =>{
 			document.getElementById("green_audio").play();
@@ -8,7 +7,6 @@ green = async function(){
 }
 
 red = async function(){
-
 	await fetch("http://127.0.0.1:8080/red")
 		.then(result =>{
 			document.getElementById("red_audio").play();
@@ -18,7 +16,6 @@ red = async function(){
 }
 
 off = async function(){
-
 	await fetch("http://127.0.0.1:8080/off")
 		.then(result =>{
 			document.getElementById("off_audio").play();
@@ -27,7 +24,6 @@ off = async function(){
 }
 
 blue = async function(){
-
 	await fetch("http://127.0.0.1:8080/blue")
 		.then(result =>{
 			document.getElementById("blue_audio").play();
